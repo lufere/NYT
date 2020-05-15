@@ -92,7 +92,7 @@ figcaption span{
     width: 600px;
     display: flex;
     flex-flow: column;
-    margin-bottom: 200px;
+    margin-bottom: 40px;
 }
 
 #shareBtns{
@@ -104,7 +104,7 @@ figcaption span{
     justify-content: space-between;
 }
 
-#shareBtns a{
+#shareBtns > a{
     background-color: rgb(238, 238, 238);
     height: 27px;
     width: 27px;
@@ -126,7 +126,6 @@ figcaption span{
 #author{
     font-family: 'Libre Franklin', sans-serif;
     font-size: 15px;
-    margin-bottom: 0px;
 }
 
 #commentQty{
@@ -135,4 +134,34 @@ figcaption span{
     padding: 6px 8px;
     margin-top: 0px;
     border-radius: 5px;
+}
+
+article{
+    width: 600px;
+    display:flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+article > p{
+    font-size: 22px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+#unlock{
+    font-size: 15px;
+    border-bottom:1px solid lightgray;
+    border-top:1px solid lightgray;
+    padding: 20px 0;
+    width: 180px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-weight: bolder;
+    line-height: 18px;
+}
+
+#unlock a{
+    margin-top: 10px;
+    color: rgb(50, 104, 145);
 }

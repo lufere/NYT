@@ -11,7 +11,7 @@ html {
 }
 
 body{
-    background-color: lightblue;
+    /* background-color: lightblue; */
     font-family: 'Tinos', serif;
     font-size: 20px;
 }
@@ -51,4 +51,88 @@ header{
     height: 32px;
     font-weight: bold;
     margin-left: 8px;
+}
+
+main{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+h1{
+    font-family: 'Arbutus Slab', serif;
+    font-size: 35px;
+    font-style: italic;
+    font-size: 1500;
+    width: 600px;
+    line-height: 50px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+#mainPic{
+    width: 1200px;
+}
+
+figcaption{
+    font-size: 17px;
+    width: 900px;
+    color: rgb(102, 102, 102);
+    margin-top: 5px;
+    line-height: 20px;
+    margin-bottom: 40px;
+}
+
+figcaption span{
+    font-size: 15px;
+    color: rgb(136, 136, 136);
+}
+
+#articleInfo{
+    width: 600px;
+    display: flex;
+    flex-flow: column;
+    margin-bottom: 200px;
+}
+
+#shareBtns{
+    width: 240px;
+    height: 30px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#shareBtns a{
+    background-color: rgb(238, 238, 238);
+    height: 27px;
+    width: 27px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#dateSocial{
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    align-items: center;
+    /* border: 1px solid; */
+    margin-top: 15px;
+}
+
+#author{
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+
+#commentQty{
+    font-size: 12px;
+    border: 1px solid;
+    padding: 6px 8px;
+    margin-top: 0px;
+    border-radius: 5px;
 }

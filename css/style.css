@@ -30,6 +30,7 @@ header{
     display: flex;
     align-items: center;
     font-size: 14.5px;
+    font-weight: 700;
 }
 
 #headerNav img{
@@ -74,7 +75,7 @@ h1{
     width: 1200px;
 }
 
-figcaption{
+#mainPic > figcaption{
     font-size: 17px;
     width: 900px;
     color: rgb(102, 102, 102);
@@ -83,7 +84,7 @@ figcaption{
     margin-bottom: 40px;
 }
 
-figcaption span{
+#mainPic > figcaption > span{
     font-size: 15px;
     color: rgb(136, 136, 136);
 }
@@ -95,7 +96,7 @@ figcaption span{
     margin-bottom: 40px;
 }
 
-#shareBtns{
+.shareBtns{
     width: 240px;
     height: 30px;
     /* border: 1px solid black; */
@@ -104,7 +105,7 @@ figcaption span{
     justify-content: space-between;
 }
 
-#shareBtns > a{
+.shareBtns > a{
     background-color: rgb(238, 238, 238);
     height: 27px;
     width: 27px;
@@ -123,9 +124,10 @@ figcaption span{
     margin-top: 15px;
 }
 
-#author{
+#author > p{
     font-family: 'Libre Franklin', sans-serif;
     font-size: 15px;
+    font-weight: bold;
 }
 
 #commentQty{
@@ -147,6 +149,8 @@ article > p{
     font-size: 22px;
     line-height: 30px;
     margin-bottom: 20px;
+    align-items: flex-start;
+    width: 100%;
 }
 
 #unlock{
@@ -251,10 +255,57 @@ h3{
 }
 
 .video{
-    margin: 30px;
+    margin: 30px 0;
 }
 
 .video span{
     font-size: 13px;
     color: rgb(136, 136, 136);
+}
+.articleImg > *{
+    width: 600px;
+    color: rgb(102, 102, 102);
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.articleImg{
+    margin: 30px 0;
+}
+.articleImg figcaption{
+    width: 95%;
+}
+
+.articleImg > figcaption > span{
+    font-size: 13px;
+    color:rgb(136, 136, 136);
+}
+
+article > footer > p{
+    font-size: 12px;
+    line-height: 16px;
+    color: rgb(102, 102, 102);
+    margin-bottom: 20px;
+}
+
+#commentSocial{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+#commentSocial > button{
+    font-size: 12px;
+    line-height: 24px;
+    color: white;
+    background-color: rgb(86, 123, 149);
+    border:none;
+    border-radius: 3px;
+    width: 330px;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 700;
+}
+
+#commentSocial > .shareBtns{
+    width: 150px;
 }

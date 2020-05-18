@@ -309,3 +309,71 @@ article > footer > p{
 #commentSocial > .shareBtns{
     width: 150px;
 }
+
+#moreArticles{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 1200px;
+    height: 200px;
+    column-gap: 20px;
+}
+
+#moreArticles > div{
+    border-top: 1px solid black;
+    width: auto;
+}
+
+#popular{
+    grid-row: span 2;
+}
+
+#relatedArticles{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto 1fr auto;
+    column-gap: 10px;
+    margin-bottom: 20px;
+    /* row-gap: 40px; */
+}
+
+
+h4{
+    grid-column: span 3;
+    height: auto;
+    font-family: 'Libre Franklin';
+    font-size: 14px;
+    font-weight: 700;
+    padding: 20px 0;
+}
+
+.articleTitle{
+    width: 272px;
+    font-family: 'Arbutus Slab', serif;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 500;
+}
+
+.date{
+    font-family: 'Libre Franklin';
+    font-size: 11px;
+    line-height: 20px;
+    color: rgb(153, 153, 153);
+}
+
+.articleBlock:nth-child(3){
+    margin-bottom: 60px;
+}
+
+#popular > .articleTitle{
+    width: auto;
+    padding: 15px 0;
+    border-top: 1px solid lightgray;
+}
+
+#editor{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+}

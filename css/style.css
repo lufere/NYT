@@ -24,6 +24,8 @@ header{
     padding: 4px 15px 6px 15px;
     height: 43px;
     border-bottom: 1px solid lightgray;
+    position: fixed;
+    width: 100%;
 }
 
 #headerNav{

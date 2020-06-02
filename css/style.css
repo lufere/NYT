@@ -315,10 +315,11 @@ article > footer > p{
 #moreArticles{
     display: grid;
     grid-template-columns: auto 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr auto;
     width: 1200px;
-    height: 200px;
+    height: auto;
     column-gap: 20px;
+    border: 1px solid red;
 }
 
 #moreArticles > div{
@@ -377,5 +378,36 @@ h4{
 #editor{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto 1fr;
     column-gap: 10px;
+    border: 2px solid goldenrod;
+    height: 400px;
+}
+
+#navigationContainer{
+    display: flex;
+    border: solid;
+    width: auto;
+    flex-flow: column;
+}
+
+#footerNav{
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+#footerNav > div{
+    border: 2px solid red;
+    height: 200px;
+}
+
+#footerNav:first-child{
+    grid-row: span 2;
+}
+
+#navigationContainer > img{
+    border: solid;
+    height: 50px;
+    width: 300px;
 }
